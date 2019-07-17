@@ -11,13 +11,15 @@ call plug#end()
 
 """ config options
 
-set tabstop=4       " show existing tab with 4 spaces width
-set shiftwidth=4
+set tabstop=2       " show existing tab with 2 spaces width
+set shiftwidth=2
+set softtabstop=2
 set expandtab       " spaces instead of tabs
 set shiftround
 
 set number          " turn on line numbers
 set mouse=a         " enable mouse input
+set scrolloff=3     " keep screen lines above and below the cursor
 set ruler           " show the cursor position all the time
 set showcmd         " display incomplete commands
 set incsearch       " do incremental searching
