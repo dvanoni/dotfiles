@@ -112,3 +112,5 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs date t
 
 POWERLEVEL9K_DATE_FORMAT=%D{%Y.%m.%d}
 
+# fzf command-line fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
