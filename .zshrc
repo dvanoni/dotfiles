@@ -97,6 +97,9 @@ eval "$(nodenv init -)"
 # rbenv
 eval "$(rbenv init -)"
 
+# Custom executables
+export PATH=~/bin:$PATH
+
 # iTerm2 Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
