@@ -1,6 +1,12 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Homebrew Shell Completion
+# See https://docs.brew.sh/Shell-Completion
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/dvanoni/.oh-my-zsh"
 
@@ -114,9 +120,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Disable auto cd
 unsetopt AUTO_CD
-
-# heroku autocomplete setup
-HEROKU_AC_ZSH_SETUP_PATH=/Users/dvanoni/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 
 # Powerlevel9k config
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
