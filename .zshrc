@@ -112,6 +112,9 @@ eval "$(nodenv init -)"
 # rbenv
 eval "$(rbenv init -)"
 
+# zoxide
+eval "$(zoxide init zsh)"
+
 # iTerm2 Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -126,3 +129,6 @@ POWERLEVEL9K_DATE_FORMAT=%D{%Y.%m.%d}
 
 # fzf command-line fuzzy finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# broot
+source $HOME/Library/Preferences/org.dystroy.broot/launcher/bash/br
