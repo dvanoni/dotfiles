@@ -131,8 +131,8 @@ unsetopt AUTO_CD
 # fzf command-line fuzzy finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# broot
-source $HOME/Library/Preferences/org.dystroy.broot/launcher/bash/br
+# Broot (see https://dystroy.org/broot/install-br/)
+source $HOME/.config/broot/launcher/bash/br
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
