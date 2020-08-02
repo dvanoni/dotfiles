@@ -1,6 +1,31 @@
-# David's dotfiles (and friends)
+# 🔘 David's dotfiles (and friends)
 
-## 🍺 Classic Brews
+## ✅ Dependencies
+
+The following tools need to be installed for everything to work.
+
+* [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) - an open source, community-driven framework for managing your Zsh configuration.
+* [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - a Zsh theme.
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh.
+* [zoxide](https://github.com/ajeetdsouza/zoxide) - a faster way to navigate your filesystem.
+* [Broot](https://dystroy.org/broot/) - a new way to see and navigate directory trees.
+* [vim-plug](https://github.com/junegunn/vim-plug) - a minimalist Vim plugin manager.
+
+## 🔗 Symlinks
+
+The following files should be symlinked from this repo.
+
+```
+~/.gitconfig
+~/.gitignore_global
+~/.oh-my-zsh/custom/aliases.zsh
+~/.p10k.zsh
+~/.vimrc
+~/.zprofile
+~/.zshrc
+```
+
+## 🍻 Classic Brews
 
 A list of Homebrew packages that I've previously used and want to keep for reference.
 The latest active list is in [`Brewfile`](Brewfile).
