@@ -81,7 +81,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(osx zsh-syntax-highlighting)
+plugins=(fzf osx zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -127,9 +127,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Disable auto cd
 unsetopt AUTO_CD
-
-# fzf command-line fuzzy finder
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Broot (see https://dystroy.org/broot/install-br/)
 source $HOME/.config/broot/launcher/bash/br
