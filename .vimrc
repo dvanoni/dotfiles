@@ -24,6 +24,7 @@ set ruler           " show the cursor position all the time
 set showcmd         " display incomplete commands
 set incsearch       " do incremental searching
 set laststatus=2    " always display the status line
+set hidden          " hide buffer when abandoned
 
 highlight LineNr ctermbg=236    " set line number background color
 
