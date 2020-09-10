@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = David Vanoni
-	email = david@dvanoni.com
+	email = david@vanoni.dev
 [alias]
   co = checkout
   br = branch
