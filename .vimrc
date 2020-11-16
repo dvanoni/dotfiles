@@ -22,6 +22,7 @@ set mouse=a         " enable mouse input
 set scrolloff=3     " keep screen lines above and below the cursor
 set ruler           " show the cursor position all the time
 set showcmd         " display incomplete commands
+set hlsearch        " highlight the last used search pattern
 set incsearch       " do incremental searching
 set laststatus=2    " always display the status line
 set hidden          " hide buffer when abandoned
