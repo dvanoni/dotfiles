@@ -13,4 +13,9 @@
   ui = true
 [core]
   excludesfile = ~/.gitignore_global
-
+# See https://www.sublimemerge.com/docs/command_line
+[mergetool "smerge"]
+	cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
+[merge]
+	tool = smerge
