@@ -3,16 +3,16 @@
 	name = David Vanoni
 	email = david@vanoni.dev
 [alias]
-  co = checkout
-  br = branch
-  ci = commit
-  st = status
-  unstage = reset HEAD --
-  permission-reset = !git diff -p -R --no-color | grep -E \"^(diff|(old|new) mode)\" --color=never | git apply
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	permission-reset = !git diff -p -R --no-color | grep -E \"^(diff|(old|new) mode)\" --color=never | git apply
 [color]
-  ui = true
+	ui = true
 [core]
-  excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore_global
 # See https://www.sublimemerge.com/docs/command_line
 [mergetool "smerge"]
 	cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
