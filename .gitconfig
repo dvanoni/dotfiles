@@ -19,3 +19,8 @@
 	trustExitCode = true
 [merge]
 	tool = smerge
+# See https://github.blog/2015-07-29-git-2-5-including-multiple-worktrees-and-triangular-workflows/
+[remote]
+	pushdefault = origin
+[push]
+	default = current
