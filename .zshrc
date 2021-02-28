@@ -113,9 +113,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# nodenv
-eval "$(nodenv init -)"
-
 # From the `brew install` caveats for ruby-build:
 #
 # ruby-build installs a non-Homebrew OpenSSL for each Ruby version installed and these are never upgraded.
@@ -126,8 +123,8 @@ eval "$(nodenv init -)"
 # Note: this may interfere with building old versions of Ruby (e.g <2.4) that use OpenSSL <1.1.
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
-# rbenv
-eval "$(rbenv init -)"
+# asdf installed via Homebrew (see https://asdf-vm.com/#/core-manage-asdf)
+source $(brew --prefix asdf)/asdf.sh
 
 # zoxide
 eval "$(zoxide init zsh)"
