@@ -1,0 +1,2 @@
+" Map fj to <Esc> to exit insert mode
+:imap fj <Esc>
