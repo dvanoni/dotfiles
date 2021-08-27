@@ -123,8 +123,8 @@ fi
 # Note: this may interfere with building old versions of Ruby (e.g <2.4) that use OpenSSL <1.1.
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
-# asdf installed via Homebrew (see https://asdf-vm.com/#/core-manage-asdf)
-source $(brew --prefix asdf)/asdf.sh
+# asdf installed via Homebrew (see https://asdf-vm.com/guide/getting-started.html#_3-install-asdf)
+source $(brew --prefix asdf)/libexec/asdf.sh
 
 # zoxide
 eval "$(zoxide init zsh)"
