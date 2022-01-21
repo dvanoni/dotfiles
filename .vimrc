@@ -9,25 +9,27 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 
-""" config options
+""" Config options
 
-set tabstop=2       " show existing tab with 2 spaces width
+set tabstop=2       " Show existing tab with 2 spaces width
 set shiftwidth=2
 set softtabstop=2
-set expandtab       " spaces instead of tabs
+set expandtab       " Spaces instead of tabs
 set shiftround
 
-set number          " turn on line numbers
-set mouse=a         " enable mouse input
-set scrolloff=3     " keep screen lines above and below the cursor
-set ruler           " show the cursor position all the time
-set showcmd         " display incomplete commands
-set hlsearch        " highlight the last used search pattern
-set incsearch       " do incremental searching
-set laststatus=2    " always display the status line
-set hidden          " hide buffer when abandoned
+set number          " Turn on line numbers
+set mouse=a         " Enable mouse input
+set scrolloff=3     " Keep screen lines above and below the cursor
+set ruler           " Show the cursor position all the time
+set showcmd         " Display incomplete commands
+set hlsearch        " Highlight the last used search pattern
+set incsearch       " Do incremental searching
+set laststatus=2    " Always display the status line
+set hidden          " Hide buffer when abandoned
+set ignorecase      " Ignore case in search patterns
+set smartcase       " Override 'ignorecase' if search pattern contains upper case characters
 
-highlight LineNr ctermbg=236    " set line number background color
+highlight LineNr ctermbg=236    " Set line number background color
 
 " Map fj to <Esc> to exit insert mode
 :imap fj <Esc>
