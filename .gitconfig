@@ -2,6 +2,7 @@
 [user]
 	name = David Vanoni
 	email = david@vanoni.dev
+	signingkey = CFD24465A8E238C0
 [alias]
 	co = checkout
 	br = branch
