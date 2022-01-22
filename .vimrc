@@ -28,6 +28,7 @@ set laststatus=2    " Always display the status line
 set hidden          " Hide buffer when abandoned
 set ignorecase      " Ignore case in search patterns
 set smartcase       " Override 'ignorecase' if search pattern contains upper case characters
+set regexpengine=0  " Auto select regexp engine
 
 highlight LineNr ctermbg=236    " Set line number background color
 
