@@ -37,6 +37,11 @@ the Firefox profile directory—which can be found by opening `about:support`.
 
 For more info, see https://kb.mozillazine.org/User.js_file.
 
+## 🍎 macOS preferences
+
+Set custom preferences by running [`macos.sh`](macos.sh).
+It may be necessary to log out and back in for preferences to take effect.
+
 ## 🔑 SSH keys
 
 Unique SSH keys are used for each host/service and [managed with 1Password](https://developer.1password.com/docs/ssh).
