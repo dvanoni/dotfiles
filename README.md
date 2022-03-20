@@ -4,18 +4,18 @@
 
 The following tools need to be installed for everything to work.
 
-* [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) - an open source, community-driven framework for managing your Zsh configuration.
-* [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - a Zsh theme.
-* [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder.
-* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh.
-* [asdf](https://github.com/asdf-vm/asdf) - a CLI tool that can manage multiple language runtime versions on a per-project basis.
-* [zoxide](https://github.com/ajeetdsouza/zoxide) - a faster way to navigate your filesystem.
-* [Broot](https://dystroy.org/broot/) - a new way to see and navigate directory trees.
-* [vim-plug](https://github.com/junegunn/vim-plug) - a minimalist Vim plugin manager.
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) - an open source, community-driven framework for managing your Zsh configuration
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - a Zsh theme
+- [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh
+- [asdf](https://github.com/asdf-vm/asdf) - a CLI tool that can manage multiple language runtime versions on a per-project basis
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - a faster way to navigate your filesystem
+- [Broot](https://dystroy.org/broot/) - a new way to see and navigate directory trees
+- [vim-plug](https://github.com/junegunn/vim-plug) - a minimalist Vim plugin manager
 
 ## 🔗 Symlinks
 
-The following files should be symlinked from this repo.
+The following files and directories should be symlinked from this repo.
 
 ```
 ~/.asdfrc
@@ -23,17 +23,31 @@ The following files should be symlinked from this repo.
 ~/.gitignore_global
 ~/.oh-my-zsh/custom/aliases.zsh
 ~/.p10k.zsh
+~/.ssh (directory)
 ~/.vimrc
 ~/.zprofile
 ~/.zshrc
 ```
 
-## 🍻 Classic Brews
+## 🔑 SSH keys
+
+Unique SSH keys are used for each host/service and [managed with 1Password](https://developer.1password.com/docs/ssh).
+[`.ssh/config`](.ssh/config) has been configured with `IdentitiesOnly` and
+`IdentityFile` to use the specific key for each host as described in the
+[1Password docs](https://developer.1password.com/docs/ssh/agent/advanced#ssh-server-six-key-limit).
+
+### SSH host key fingerprints
+
+- [Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification/)
+- [GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints)
+- [GitLab](https://docs.gitlab.com/ee/user/gitlab_com/index.html#ssh-host-keys-fingerprints)
+
+## 🍻 Classic brews
 
 A list of Homebrew packages that I've previously used and want to keep for reference.
 The latest active list is in [`Brewfile`](Brewfile).
 
-These are generated via [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle). 
+These are generated via [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle).
 
 ```ruby
 tap "stripe/stripe-cli"
