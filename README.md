@@ -27,7 +27,15 @@ The following files and directories should be symlinked from this repo.
 ~/.vimrc
 ~/.zprofile
 ~/.zshrc
+~/<firefox-profile-dir>/user.js
 ```
+
+## 🦊 Firefox preferences
+
+Set custom preferences by symlinking [`firefox/user.js`](firefox/user.js) into
+the Firefox profile directory—which can be found by opening `about:support`.
+
+For more info, see https://kb.mozillazine.org/User.js_file.
 
 ## 🔑 SSH keys
 
