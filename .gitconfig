@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	name = David Vanoni
+	name = David Hoff-Vanoni
 	email = david@vanoni.dev
 	signingkey = CFD24465A8E238C0
 [alias]
