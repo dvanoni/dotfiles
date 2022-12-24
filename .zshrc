@@ -136,3 +136,6 @@ source $HOME/.config/broot/launcher/bash/br
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# 1Password CLI shell plugins (see https://developer.1password.com/docs/cli/shell-plugins)
+source ~/.config/op/plugins.sh
