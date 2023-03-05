@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 Plug 'jszakmeister/vim-togglecursor'
+Plug 'tpope/vim-surround'
 
 " Initialize plugin system
 call plug#end()
