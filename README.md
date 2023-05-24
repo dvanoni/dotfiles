@@ -26,6 +26,7 @@ The following files and directories should be symlinked from this repo.
 ~/.ssh (directory)
 ~/.vimrc
 ~/.zprofile
+~/.zshenv
 ~/.zshrc
 ~/<firefox-profile-dir>/user.js
 ```

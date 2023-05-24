@@ -1,9 +1,6 @@
 # Custom executables
 export PATH="$HOME/bin:$PATH"
 
-# Rust
-export PATH="$HOME/.cargo/bin:$PATH"
-
 # Homebrew initialization
 # Multi-arch support borrowed from https://github.com/Homebrew/install/blob/master/install.sh
 function () {
