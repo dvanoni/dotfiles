@@ -29,3 +29,5 @@
 	defaultBranch = main
 [commit]
 	gpgsign = true
+[fetch]
+	prune = true
