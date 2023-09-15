@@ -19,6 +19,7 @@ The following files and directories should be symlinked from this repo.
 
 ```
 ~/.asdfrc
+~/.gitattributes
 ~/.gitconfig
 ~/.gitignore_global
 ~/.oh-my-zsh/custom/aliases.zsh

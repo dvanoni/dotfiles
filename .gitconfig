@@ -13,6 +13,7 @@
 [color]
 	ui = true
 [core]
+	attributesfile = ~/.gitattributes
 	excludesfile = ~/.gitignore_global
 # See https://www.sublimemerge.com/docs/command_line
 [mergetool "smerge"]
@@ -31,3 +32,7 @@
 	gpgsign = true
 [fetch]
 	prune = true
+# See https://bun.sh/docs/install/lockfile
+[diff "lockb"]
+	textconv = bun
+	binary = true
