@@ -1,8 +1,10 @@
 # This is Git's per-user configuration file.
+
 [user]
 	name = David Hoff-Vanoni
 	email = david@vanoni.dev
 	signingkey = CFD24465A8E238C0
+
 [alias]
 	co = checkout
 	br = branch
@@ -12,26 +14,29 @@
 	permission-reset = !git diff -p -R --no-color | grep -E \"^(diff|(old|new) mode)\" --color=never | git apply
 [color]
 	ui = true
+[commit]
+	gpgsign = true
 [core]
 	attributesfile = ~/.gitattributes
 	excludesfile = ~/.gitignore_global
+[fetch]
+	prune = true
+[init]
+	defaultBranch = main
+
 # See https://www.sublimemerge.com/docs/command_line
 [mergetool "smerge"]
 	cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
 [merge]
 	tool = smerge
+
 # See https://github.blog/2015-07-29-git-2-5-including-multiple-worktrees-and-triangular-workflows/
 [remote]
 	pushdefault = origin
 [push]
 	default = current
-[init]
-	defaultBranch = main
-[commit]
-	gpgsign = true
-[fetch]
-	prune = true
+
 # See https://bun.sh/docs/install/lockfile
 [diff "lockb"]
 	textconv = bun
