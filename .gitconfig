@@ -23,6 +23,8 @@
 	prune = true
 [init]
 	defaultBranch = main
+[pull]
+	ff = only
 
 # See https://www.sublimemerge.com/docs/command_line
 [mergetool "smerge"]
