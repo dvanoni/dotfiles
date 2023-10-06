@@ -4,14 +4,15 @@
 
 The following tools need to be installed for everything to work.
 
+- [asdf](https://github.com/asdf-vm/asdf) - a CLI tool that can manage multiple language runtime versions on a per-project basis
+- [Broot](https://dystroy.org/broot/) - a new way to see and navigate directory trees
+- [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder
+- [lsd](https://github.com/lsd-rs/lsd) - the next gen ls command
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) - an open source, community-driven framework for managing your Zsh configuration
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - a Zsh theme
-- [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh
-- [asdf](https://github.com/asdf-vm/asdf) - a CLI tool that can manage multiple language runtime versions on a per-project basis
-- [zoxide](https://github.com/ajeetdsouza/zoxide) - a faster way to navigate your filesystem
-- [Broot](https://dystroy.org/broot/) - a new way to see and navigate directory trees
 - [vim-plug](https://github.com/junegunn/vim-plug) - a minimalist Vim plugin manager
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - a faster way to navigate your filesystem
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh
 
 ## 🔗 Symlinks
 

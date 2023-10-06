@@ -1,3 +1,4 @@
+alias l='lsd -al'
 alias copspec='bundle exec rubocop -a && bundle exec rspec'
 alias dbmigrate='rails db:migrate && rails db:migrate RAILS_ENV=test'
 alias whereami='basename $(pwd) | figlet'
