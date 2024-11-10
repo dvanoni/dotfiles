@@ -1,5 +1,17 @@
 # 🔘 David's dotfiles (and friends)
 
+This repository contains my personal dotfiles and other configuration files.
+It is managed with [chezmoi](https://www.chezmoi.io/).
+
+## 🚀 Quick start
+
+```sh
+brew install chezmoi
+chezmoi init dvanoni
+chezmoi diff
+chezmoi -v apply
+```
+
 ## ✅ Dependencies
 
 The following tools need to be installed for everything to work.
@@ -14,25 +26,6 @@ The following tools need to be installed for everything to work.
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - a faster way to navigate your filesystem
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh
 
-## 🔗 Symlinks
-
-The following files and directories should be symlinked from this repo.
-
-```
-~/.asdfrc
-~/.gitattributes
-~/.gitconfig
-~/.gitignore_global
-~/.oh-my-zsh/custom/aliases.zsh
-~/.p10k.zsh
-~/.ssh (directory)
-~/.vimrc
-~/.zprofile
-~/.zshenv
-~/.zshrc
-~/<firefox-profile-dir>/user.js
-```
-
 ## 🦊 Firefox preferences
 
 Set custom preferences by symlinking [`firefox/user.js`](firefox/user.js) into
@@ -42,15 +35,19 @@ For more info, see https://kb.mozillazine.org/User.js_file.
 
 ## 🍎 macOS preferences
 
-Set custom preferences by running [`macos.sh`](macos.sh).
+chezmoi will run the [`run_onchange_macos.sh`](run_onchange_macos.sh) script
+to apply custom macOS preferences.
 It may be necessary to log out and back in for preferences to take effect.
 
 ## 🔑 SSH keys
 
-Unique SSH keys are used for each host/service and [managed with 1Password](https://developer.1password.com/docs/ssh).
-[`.ssh/config`](.ssh/config) has been configured with `IdentitiesOnly` and
-`IdentityFile` to use the specific key for each host as described in the
-[1Password docs](https://developer.1password.com/docs/ssh/agent/advanced#ssh-server-six-key-limit).
+Unique SSH keys are used for each host/service and [managed with 1Password][op-ssh].
+[`.ssh/config`](private_dot_ssh/config) has been configured with `IdentitiesOnly`
+and `IdentityFile` to use the specific key for each host as described in the
+[1Password docs][op-ssh-config].
+
+[op-ssh]: https://developer.1password.com/docs/ssh
+[op-ssh-config]: https://developer.1password.com/docs/ssh/agent/advanced#ssh-server-six-key-limit
 
 ### SSH host key fingerprints
 
