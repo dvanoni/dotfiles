@@ -1,5 +1,2 @@
 set ignorecase      " Ignore case in search patterns
 set smartcase       " Override 'ignorecase' if search pattern contains upper case characters
-
-" Map fj to <Esc> to exit insert mode
-:imap fj <Esc>
