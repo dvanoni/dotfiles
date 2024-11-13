@@ -81,6 +81,9 @@ ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 # Specify how suggestions should be generated.
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
+# Bind ctrl+space to accept the current suggestion.
+bindkey '^ ' autosuggest-accept
+
 #
 # zsh-syntax-highlighting
 #
