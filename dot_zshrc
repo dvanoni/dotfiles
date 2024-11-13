@@ -154,9 +154,6 @@ export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 # asdf installed via Homebrew (see https://asdf-vm.com/guide/getting-started.html#_3-install-asdf)
 source $(brew --prefix asdf)/libexec/asdf.sh
 
-# zoxide
-eval "$(zoxide init zsh)"
-
 # iTerm2 Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
