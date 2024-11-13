@@ -1,7 +1,9 @@
 # Custom executables
 export PATH="$HOME/bin:$PATH"
 
-# Homebrew initialization
+# Homebrew initialization is done here in .zprofile to correctly set PATH
+# See https://apple.stackexchange.com/q/432226
+
 # Multi-arch support borrowed from https://github.com/Homebrew/install/blob/master/install.sh
 function () {
   local UNAME_MACHINE="$(/usr/bin/uname -m)"
