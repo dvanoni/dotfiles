@@ -162,3 +162,7 @@ unsetopt AUTO_CD
 
 # 1Password CLI shell plugins (see https://developer.1password.com/docs/cli/shell-plugins)
 source ~/.config/op/plugins.sh
+
+# Aliases
+alias confetti='open "raycast://confetti"'
+alias pbdecode='pbpaste | base64 -d'
