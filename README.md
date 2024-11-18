@@ -14,16 +14,15 @@ chezmoi -v apply
 
 ## ✅ Dependencies
 
-The following tools need to be installed for everything to work.
+The following tools must be installed for everything to work. chezmoi will
+install them via the [`install-packages.sh`](run_onchange_install-packages.sh.tmpl)
+script and the [`.chezmoiexternal.toml`](.chezmoiexternal.toml) config.
 
 - [asdf](https://github.com/asdf-vm/asdf) - a CLI tool that can manage multiple language runtime versions on a per-project basis
 - [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder
 - [lsd](https://github.com/lsd-rs/lsd) - the next gen ls command
-- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) - an open source, community-driven framework for managing your Zsh configuration
-- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - a Zsh theme
 - [vim-plug](https://github.com/junegunn/vim-plug) - a minimalist Vim plugin manager
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - a faster way to navigate your filesystem
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh
 
 ## 🦊 Firefox preferences
 

@@ -1,0 +1,11 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/zsh
+
+brew bundle --no-lock --file=- <<EOF
+brew "asdf"
+brew "git"
+brew "fzf"
+brew "lsd"
+brew "zoxide"
+EOF
+{{ end -}}
