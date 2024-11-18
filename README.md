@@ -1,7 +1,7 @@
 # 🔘 David's dotfiles (and friends)
 
 This repository contains my personal dotfiles and other configuration files.
-It is managed with [chezmoi](https://www.chezmoi.io/).
+It's managed with [chezmoi](https://www.chezmoi.io/).
 
 ## 🚀 Quick start
 
@@ -24,18 +24,23 @@ script and the [`.chezmoiexternal.toml`](.chezmoiexternal.toml) config.
 - [vim-plug](https://github.com/junegunn/vim-plug) - a minimalist Vim plugin manager
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - a faster way to navigate your filesystem
 
-## 🦊 Firefox preferences
+## 🐚 Shell
 
-Set custom preferences by symlinking [`firefox/user.js`](firefox/user.js) into
-the Firefox profile directory—which can be found by opening `about:support`.
-
-For more info, see https://kb.mozillazine.org/User.js_file.
+[`.zshrc`](dot_zshrc) uses the [Zim](https://zimfw.sh/) Zsh framework, and
+installed Zim modules are specified in [`.zimrc`](dot_zimrc).
 
 ## 🍎 macOS preferences
 
 chezmoi will run the [`configure-macos.sh`](run_onchange_configure-macos.sh.tmpl)
 script to apply custom macOS preferences.
 It may be necessary to log out and back in for preferences to take effect.
+
+## 🦊 Firefox preferences
+
+Set custom preferences by symlinking [`firefox/user.js`](firefox/user.js) into
+the Firefox profile directory—which can be found by opening `about:support`.
+
+For more info, see https://kb.mozillazine.org/User.js_file.
 
 ## 🔑 SSH keys
 
