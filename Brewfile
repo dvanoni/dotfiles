@@ -1,6 +1,8 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "oven-sh/bun"
+# New file format for still image compression
+brew "jpeg-xl"
 # ODBC 3 connectivity for UNIX
 brew "unixodbc"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -9,34 +11,24 @@ brew "asdf"
 brew "pycparser"
 # C Foreign Function Interface for Python
 brew "cffi"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
+# Cryptographic recipes and primitives for Python
+brew "cryptography"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Collection of portable C++ source libraries
-brew "boost"
 # Core application library for C
 brew "glib"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # JSON, YAML, TOML, XML, and CSV query and modification tool
 brew "dasel"
-# Text processing system for reStructuredText
-brew "docutils"
-# Collection of reusable C++ library artifacts developed at Facebook
-brew "folly"
-# C++14 implementation of the TLS-1.3 standard
-brew "fizz"
-# Modular, composable client/server abstractions framework
-brew "wangle"
-# Facebook's branch of Apache Thrift, including a new C++ server
-brew "fbthrift"
-# Thrift functions for querying information from a service
-brew "fb303"
-# Shared library for Watchman and Eden projects
-brew "edencommon"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Secure Reliable Transport
+brew "srt"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Banner-like program prints strings as ASCII art
@@ -49,18 +41,10 @@ brew "gh"
 brew "ghostscript"
 # Distributed revision control system
 brew "git"
-# Improved top (interactive process viewer)
-brew "htop"
 # Database of common MIME types
 brew "shared-mime-info"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-# Tool Command Language
-brew "tcl-tk"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # Library for reading RAW files from digital photo cameras
 brew "libraw"
 # Tools and libraries to manipulate images in many formats
@@ -75,16 +59,8 @@ brew "mas"
 brew "mdcat"
 # Install NodeJS versions
 brew "node-build"
-# Persistent key-value database, with built-in net interface
-brew "redis"
-# Formatting tool for reformatting Swift code
-brew "swiftformat"
-# Change macOS audio source from the command-line
-brew "switchaudio-osx"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
-# Watch files and take action when they change
-brew "watchman"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Shell extension to navigate your filesystem faster
@@ -187,6 +163,8 @@ cask "via"
 cask "visual-studio-code"
 # Create, manage, and run virtual machines
 cask "vmware-fusion"
+# Gecko based web browser
+cask "zen-browser"
 # Video communication and virtual meeting platform
 cask "zoom"
 # Collect, organise, cite, and share research sources
