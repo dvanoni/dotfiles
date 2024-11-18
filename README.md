@@ -34,8 +34,8 @@ For more info, see https://kb.mozillazine.org/User.js_file.
 
 ## 🍎 macOS preferences
 
-chezmoi will run the [`run_onchange_macos.sh`](run_onchange_macos.sh) script
-to apply custom macOS preferences.
+chezmoi will run the [`configure-macos.sh`](run_onchange_configure-macos.sh.tmpl)
+script to apply custom macOS preferences.
 It may be necessary to log out and back in for preferences to take effect.
 
 ## 🔑 SSH keys

@@ -4,6 +4,6 @@
 // see the documentation: https://zed.dev/docs/configuring-zed#settings-files
 {
   "file_types": {
-    "Shell Script": ["dot_zimrc", "dot_zprofile", "dot_zsh*"]
+    "Shell Script": ["dot_zimrc", "dot_zprofile", "dot_zsh*", "*.sh.tmpl"]
   }
 }
