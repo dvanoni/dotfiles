@@ -8,6 +8,8 @@
 # Modules
 #
 
+# Sets up asdf, with auto install and optimized usage of the direnv plugin.
+zmodule asdf
 # Sets sane Zsh built-in environment options.
 zmodule environment
 # Configures fzf for faster fetching of files and directories names.
