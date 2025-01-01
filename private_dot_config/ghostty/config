@@ -1,0 +1,2 @@
+keybind = global:opt+space=toggle_quick_terminal
+theme = dark:catppuccin-macchiato,light:catppuccin-latte
