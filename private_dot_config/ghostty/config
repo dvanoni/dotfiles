@@ -1,2 +1,3 @@
 keybind = global:opt+space=toggle_quick_terminal
+quick-terminal-screen = mouse
 theme = dark:catppuccin-macchiato,light:catppuccin-latte
