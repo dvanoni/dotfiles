@@ -3,14 +3,26 @@
 This repository contains my personal dotfiles and other configuration files.
 It's managed with [chezmoi](https://www.chezmoi.io/).
 
-## 🚀 Quick start
+## 🚀 Setup
 
-```sh
-brew install chezmoi
-chezmoi init dvanoni
-chezmoi diff
-chezmoi -v apply
-```
+To set up a new machine:
+
+1. Install [Homebrew](https://brew.sh/)
+
+2. Initialize Homebrew in a shell session:
+
+   ```sh
+   eval "$(/opt/homebrew/bin/brew shellenv)"
+   ```
+
+3. Install, initialize, and apply chezmoi:
+
+   ```sh
+   brew install chezmoi
+   chezmoi init dvanoni
+   chezmoi diff
+   chezmoi -v apply
+   ```
 
 ## ✅ Dependencies
 
