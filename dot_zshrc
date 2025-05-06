@@ -158,7 +158,9 @@ export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 unsetopt AUTO_CD
 
 # 1Password CLI shell plugins (see https://developer.1password.com/docs/cli/shell-plugins)
-source ~/.config/op/plugins.sh
+if [[ -e "~/.config/op/plugins.sh" ]]; then
+  source ~/.config/op/plugins.sh
+fi
 
 # Aliases
 alias confetti='open "raycast://confetti"'
