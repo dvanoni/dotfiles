@@ -1,7 +1,7 @@
 {{- if eq .chezmoi.os "darwin" -}}
 #!/bin/zsh
 
-brew bundle --no-lock --file=- <<EOF
+brew bundle --file=- <<EOF
 brew "asdf"
 brew "git"
 brew "fzf"
