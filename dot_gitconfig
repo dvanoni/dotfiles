@@ -3,7 +3,7 @@
 [user]
 	name = David Hoff-Vanoni
 	email = david@vanoni.dev
-	signingkey = CFD24465A8E238C0
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDRoIP6moVNPYqj6EKFRZnpJxhfvEmMq4qlHdkiOY6zr
 
 [alias]
 	co = checkout
@@ -43,3 +43,10 @@
 [diff "lockb"]
 	textconv = bun
 	binary = true
+
+# See https://developer.1password.com/docs/ssh/git-commit-signing/
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = /Users/dvanoni/.ssh/allowed_signers
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
