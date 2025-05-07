@@ -1,0 +1,105 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    "provider": null,
+    "version": "2"
+  },
+  "autosave": "on_focus_change",
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 13,
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "edit_predictions": {
+    "mode": "eager",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_assistant": false
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "file_types": {
+    "HTML": ["*.xhtml"]
+  },
+  "formatter": "prettier",
+  "git": {
+    "inline_blame": {
+      "delay_ms": 400
+    }
+  },
+  "language_models": {
+    "ollama": {
+      "low_speed_timeout_in_seconds": 30
+    }
+  },
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python": {
+          "pythonPath": ".venv/bin/python"
+        }
+      }
+    }
+  },
+  "project_panel": {
+    "auto_fold_dirs": true,
+    "dock": "left",
+    "indent_size": 10
+  },
+  "relative_line_numbers": true,
+  "show_whitespaces": "boundary",
+  "soft_wrap": "none",
+  "tab_size": 2,
+  "tabs": {
+    "git_status": true
+  },
+  "terminal": {
+    "dock": "bottom",
+    "font_family": "JetBrainsMono Nerd Font"
+  },
+  "theme": {
+    "dark": "Catppuccin Macchiato",
+    "light": "Catppuccin Latte"
+  },
+  "vim_mode": true,
+  "wrap_guides": [80],
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "Markdown": {
+      "soft_wrap": "none"
+    },
+    "Python": {
+      "formatter": [{ "language_server": { "name": "ruff" } }],
+      "language_servers": ["pyright", "ruff"],
+      "tab_size": 4
+    },
+    "TSX": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
+  }
+}
