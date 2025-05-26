@@ -7,12 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "assistant": {
+  "agent": {
+    "default_profile": "write",
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-latest"
+      "model": "claude-sonnet-4-latest"
     },
-    "provider": null,
     "version": "2"
   },
   "autosave": "on_focus_change",
@@ -22,12 +22,12 @@
     "dock": "left"
   },
   "edit_predictions": {
-    "mode": "eager",
+    "mode": "subtle",
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null
     },
-    "enabled_in_assistant": false
+    "enabled_in_text_threads": false
   },
   "features": {
     "edit_prediction_provider": "zed"
@@ -35,7 +35,7 @@
   "file_types": {
     "HTML": ["*.xhtml"]
   },
-  "formatter": "prettier",
+  "formatter": "auto",
   "git": {
     "inline_blame": {
       "delay_ms": 400
@@ -60,7 +60,6 @@
     "dock": "left",
     "indent_size": 10
   },
-  "relative_line_numbers": true,
   "show_whitespaces": "boundary",
   "soft_wrap": "none",
   "tab_size": 2,
