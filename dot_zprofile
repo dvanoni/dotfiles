@@ -1,5 +1,5 @@
 # Custom executables
-export PATH="$HOME/bin:$PATH"
+export PATH="$PATH:$HOME/.local/bin"
 
 # Homebrew initialization is done here in .zprofile to correctly set PATH
 # See https://apple.stackexchange.com/q/432226
