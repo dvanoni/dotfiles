@@ -11,9 +11,8 @@
     "default_profile": "write",
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-sonnet-4-latest"
-    },
-    "version": "2"
+      "model": "claude-sonnet-4"
+    }
   },
   "autosave": "on_focus_change",
   "buffer_font_family": "JetBrains Mono",
@@ -39,11 +38,6 @@
   "git": {
     "inline_blame": {
       "delay_ms": 400
-    }
-  },
-  "language_models": {
-    "ollama": {
-      "low_speed_timeout_in_seconds": 30
     }
   },
   "lsp": {
@@ -74,6 +68,7 @@
     "dark": "Catppuccin Macchiato",
     "light": "Catppuccin Latte"
   },
+  "use_system_window_tabs": true,
   "vim_mode": true,
   "wrap_guides": [80],
   "languages": {
