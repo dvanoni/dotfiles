@@ -11,7 +11,7 @@
     "default_profile": "write",
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-sonnet-4"
+      "model": "claude-sonnet-4-5"
     }
   },
   "autosave": "on_focus_change",
@@ -40,15 +40,6 @@
       "delay_ms": 400
     }
   },
-  "lsp": {
-    "pyright": {
-      "settings": {
-        "python": {
-          "pythonPath": ".venv/bin/python"
-        }
-      }
-    }
-  },
   "project_panel": {
     "auto_fold_dirs": true,
     "dock": "left",
@@ -68,6 +59,9 @@
     "dark": "Catppuccin Macchiato",
     "light": "Catppuccin Latte"
   },
+  "title_bar": {
+    "show_branch_icon": true
+  },
   "use_system_window_tabs": true,
   "vim_mode": true,
   "wrap_guides": [80],
@@ -82,7 +76,6 @@
     },
     "Python": {
       "formatter": [{ "language_server": { "name": "ruff" } }],
-      "language_servers": ["pyright", "ruff"],
       "tab_size": 4
     },
     "TSX": {

@@ -23,5 +23,15 @@
     "bindings": {
       "shift-s": ["vim::PushAddSurrounds", {}]
     }
+  },
+  {
+    "bindings": {
+      "cmd-`": "window::ShowNextWindowTab"
+    }
+  },
+  {
+    "bindings": {
+      "cmd-~": "window::ShowPreviousWindowTab"
+    }
   }
 ]
