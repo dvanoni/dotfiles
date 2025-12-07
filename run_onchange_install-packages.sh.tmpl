@@ -1,11 +1,21 @@
 {{- if eq .chezmoi.os "darwin" -}}
 #!/bin/zsh
 
+# Install Homebrew packages
 brew bundle --file=- <<EOF
 brew "asdf"
+brew "bat"
+brew "gh"
 brew "git"
 brew "fzf"
 brew "lsd"
+brew "yazi"
 brew "zoxide"
+cask "1password"
+cask "1password-cli"
+cask "font-jetbrains-mono"
+cask "font-jetbrains-mono-nerd-font"
+cask "ghostty"
+cask "zed"
 EOF
 {{ end -}}
