@@ -17,9 +17,7 @@
   "autosave": "on_focus_change",
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 13,
-  "collaboration_panel": {
-    "dock": "left"
-  },
+  "colorize_brackets": true,
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -47,6 +45,9 @@
   },
   "show_whitespaces": "boundary",
   "soft_wrap": "none",
+  "sticky_scroll": {
+    "enabled": true
+  },
   "tab_size": 2,
   "tabs": {
     "git_status": true
