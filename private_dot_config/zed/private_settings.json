@@ -10,58 +10,58 @@
   "agent": {
     "default_profile": "write",
     "default_model": {
+      "effort": "high",
+      "enable_thinking": true,
       "provider": "zed.dev",
-      "model": "claude-sonnet-4-5"
-    }
+      "model": "claude-sonnet-4-6",
+    },
   },
   "autosave": "on_focus_change",
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 13,
   "colorize_brackets": true,
   "edit_predictions": {
+    "provider": "zed",
     "mode": "subtle",
     "copilot": {
       "proxy": null,
-      "proxy_no_verify": null
+      "proxy_no_verify": null,
     },
-    "enabled_in_text_threads": false
-  },
-  "features": {
-    "edit_prediction_provider": "zed"
+    "enabled_in_text_threads": false,
   },
   "file_types": {
-    "HTML": ["*.xhtml"]
+    "HTML": ["*.xhtml"],
   },
   "formatter": "auto",
   "git": {
     "inline_blame": {
-      "delay_ms": 400
-    }
+      "delay_ms": 400,
+    },
   },
   "project_panel": {
     "auto_fold_dirs": true,
     "dock": "left",
-    "indent_size": 10
+    "indent_size": 10,
   },
   "show_whitespaces": "boundary",
   "soft_wrap": "none",
   "sticky_scroll": {
-    "enabled": true
+    "enabled": true,
   },
   "tab_size": 2,
   "tabs": {
-    "git_status": true
+    "git_status": true,
   },
   "terminal": {
     "dock": "bottom",
-    "font_family": "JetBrainsMono Nerd Font"
+    "font_family": "JetBrainsMono Nerd Font",
   },
   "theme": {
     "dark": "Catppuccin Macchiato",
-    "light": "Catppuccin Latte"
+    "light": "Catppuccin Latte",
   },
   "title_bar": {
-    "show_branch_icon": true
+    "show_branch_icon": true,
   },
   "use_system_window_tabs": true,
   "vim_mode": true,
@@ -69,25 +69,25 @@
   "languages": {
     "JavaScript": {
       "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      }
+        "source.fixAll.eslint": true,
+      },
     },
     "Markdown": {
-      "soft_wrap": "none"
+      "soft_wrap": "none",
     },
     "Python": {
       "formatter": [{ "language_server": { "name": "ruff" } }],
-      "tab_size": 4
+      "tab_size": 4,
     },
     "TSX": {
       "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      }
+        "source.fixAll.eslint": true,
+      },
     },
     "TypeScript": {
       "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      }
-    }
-  }
+        "source.fixAll.eslint": true,
+      },
+    },
+  },
 }
