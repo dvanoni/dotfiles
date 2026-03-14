@@ -1,4 +1,6 @@
 keybind = global:opt+space=toggle_quick_terminal
+notify-on-command-finish = unfocused
+notify-on-command-finish-action = no-bell,notify
 quick-terminal-screen = mouse
 shell-integration-features = true
 theme = dark:Catppuccin Macchiato,light:Catppuccin Latte
