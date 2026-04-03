@@ -16,9 +16,6 @@
 	ui = true
 [commit]
 	gpgsign = true
-[core]
-	attributesfile = ~/.gitattributes
-	excludesfile = ~/.gitignore_global
 [fetch]
 	prune = true
 [init]
