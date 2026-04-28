@@ -1,3 +1,4 @@
+adjust-cursor-thickness = 2
 keybind = global:opt+space=toggle_quick_terminal
 notify-on-command-finish = unfocused
 notify-on-command-finish-action = no-bell,notify
